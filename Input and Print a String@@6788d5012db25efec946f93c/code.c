@@ -2,6 +2,7 @@
 int main()
 {
     char a[100];
-    scanf("You entered: %s",a);
+    scanf("%22s",&a);
+    printf("You entered: %s",a);
     return 0;
 }
